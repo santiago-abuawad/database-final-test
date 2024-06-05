@@ -1,18 +1,16 @@
 #include <iostream>
 #include <vector>
-#include <map>
+
 
 using namespace std;
-
-//Estructura-----------------------------------------------------
+//ESTRUCTURA FECHA-------------------------------------------------
 struct Fecha {
     int anio;
     int mes;
     int dia;
     string Fecha_De_Entrada;
 };
-
-//Funciones-----------------------------------------------------
+//FUNCIONES-------------------------------------------------
 bool Validar_de_Fecha(int anio, int mes, int dia) {
     if(mes < 1 || mes > 12 )
     {
@@ -41,8 +39,19 @@ bool Validar_de_Fecha(int anio, int mes, int dia) {
     }
     return true;
 }
-//-----------------------------------------------------
-int main() {
+
+int contarGuiones(const string& str) {
+    int count = 0;
+    for (char c : str) {
+        if (c == '-') {
+            count++;
+        }
+    }
+    return count;
+}
+
+//-------------------------------------------------
+int main () {
     vector<Fecha> fechas;
     string input;
 
@@ -50,6 +59,8 @@ int main() {
     {
         cout<<"introduzca la fecha: "<<endl;
         cin >> input;
+
+
     if(input == "print") 
     {
         for(const auto& fecha : fechas) {
@@ -59,21 +70,34 @@ int main() {
             cout << "Dia " << fecha.dia << endl;
             cout << "-----------------------------------" << endl;
         }
-    } else if(input == "salir") 
+    } 
+    
+    else if(input == "salir") 
     {
         break;
     }
-    else {
-        Fecha fecha;
-        sscanf(input.c_str(), "%d-%d-%d",&fecha.anio , &fecha.mes , &fecha.dia);
-        fecha.Fecha_De_Entrada = input;
 
-        if(Validar_de_Fecha(fecha.anio, fecha.mes, fecha.dia ))
-        {
-        fechas.push_back(fecha);
-        cout << "Fecha Guardada correctamente\n\n";
+
+    else 
+    {
+        if(contarGuiones(input) == 2) {
+            Fecha fecha;
+            if(sscanf(input.c_str(), "%d-%d-%d", &fecha.anio,&fecha.mes,&fecha.dia) == 3)
+            {
+                fecha.Fecha_De_Entrada = input;
+                if(Validar_de_Fecha(fecha.anio,fecha.mes,fecha.dia)) {
+                    fechas.push_back(fecha);
+                    cout << "Saved Fecha" << endl;
+                }
+            } else {
+                cout << "formato incorrecto fechas";
+            }
         }
+            else {
+                cout << "formato incorrecto -";
+            }
+    
+    } 
     }
-    }
-    return 0;
+    return 0; 
 }
