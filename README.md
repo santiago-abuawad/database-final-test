@@ -173,7 +173,7 @@ esta funcion de tipo booleana me permite eliminar los eventos la uso para los co
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="linea" />
 <h3 align="center">🌲Diagrama de flujo </h3>
-
+<img src="diagrama-bd.png" alt="linea" />
 Aqui podemos ver la estructura primitiva del programa como mediante sentencias logramos filtrar las entradas
 y almacenar los eventos en la fecha deseade
 
