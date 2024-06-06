@@ -1,4 +1,4 @@
-![image](https://github.com/santiago-abuawad/database-final-test/assets/85538772/9c1c0807-da51-41d9-a5f3-45402d699322)<p align="center">
+
   <img src="https://cdn.iconscout.com/icon/free/png-256/free-database-827-444649.png?f=webp" alt="Logo" width="150" height="150" />
   <h1 align="center">@santiagoabuawad/bd</h1>
 <p align="center">
