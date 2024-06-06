@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/santiago-abuawad/database-final-test/assets/85538772/9c1c0807-da51-41d9-a5f3-45402d699322)<p align="center">
   <img src="https://cdn.iconscout.com/icon/free/png-256/free-database-827-444649.png?f=webp" alt="Logo" width="150" height="150" />
   <h1 align="center">@santiagoabuawad/bd</h1>
 <p align="center">
@@ -176,7 +176,9 @@ esta funcion de tipo booleana me permite eliminar los eventos la uso para los co
 <img src="diagrama-bd.png" alt="linea" />
 Aqui podemos ver la estructura primitiva del programa como mediante sentencias logramos filtrar las entradas
 y almacenar los eventos en la fecha deseade
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="linea" />
+<h3 align="center">🥪Imagen en Funcionamiento </h3>
+<img src="https://media.discordapp.net/attachments/1220051274041655386/1248168149556400200/image.png?ex=6662aeac&is=66615d2c&hm=fa248f58f534c5f3e8642fa25812058e3fde1e513e159d9540a8120de56bcbe5&=&format=webp&quality=lossless&width=1124&height=632" alt="linea" />
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="linea" />
 
 <h3 align="center">👤Creditos </h3>
