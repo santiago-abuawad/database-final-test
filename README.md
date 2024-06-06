@@ -177,7 +177,7 @@ Aqui podemos ver la estructura primitiva del programa como mediante sentencias l
 y almacenar los eventos en la fecha deseade
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="linea" />
 <h3 align="center">🥪Imagen en Funcionamiento </h3>
-<img src="https://media.discordapp.net/attachments/1220051274041655386/1248168149556400200/image.png?ex=6662aeac&is=66615d2c&hm=fa248f58f534c5f3e8642fa25812058e3fde1e513e159d9540a8120de56bcbe5&=&format=webp&quality=lossless&width=1124&height=632" alt="imagen" width="800" height="700" />
+<img src="https://media.discordapp.net/attachments/1220051274041655386/1248168149556400200/image.png?ex=6662aeac&is=66615d2c&hm=fa248f58f534c5f3e8642fa25812058e3fde1e513e159d9540a8120de56bcbe5&=&format=webp&quality=lossless&width=1124&height=632" alt="imagen" />
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="linea" />
 
 <h3 align="center">👤Creditos </h3>
