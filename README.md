@@ -34,7 +34,7 @@ Estas son las tecnologias mas conocidas en el sector de las bases de datos aqui 
 <h3 align="center">🐢 Estructura Repositorio</h3>
 Un proyecto bastante versatil y sencillo pero eso no significa que no pueda lograr grandes cosas
 encontramos todo el contenido en un solo ![main](main.cpp) 
-<h2 align="center">➤Estructura</h2>
+<h4 align="center">➤Estructura</h2>
 
   ```cpp
   struct Fecha {
@@ -44,7 +44,7 @@ encontramos todo el contenido en un solo ![main](main.cpp)
 };
   ```
 
-<h2 align="center">➤Funciones</h2>
+<h4 align="center">➤Funciones</h2>
 <details>
 <summary>Validar Fecha</summary>
   
