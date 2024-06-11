@@ -32,8 +32,15 @@ Estas son las tecnologias mas conocidas en el sector de las bases de datos aqui 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="linea" />
 
 <h3 align="center">🐢 Estructura Repositorio</h3>
-Un proyecto bastante versatil y sencillo pero eso no significa que no pueda lograr grandes cosas
-encontramos todo el contenido en un solo ![main](main.cpp) 
+
+  ```css
+proyecto
+│   ├── funct-call.h
+│   ├── funct.cpp
+│   ├── main.cpp
+│   ├── struct.h
+│   ├── bd-diagrama.png
+  ```
 <h4 align="center">Estructura</h2>
 
   ```cpp
