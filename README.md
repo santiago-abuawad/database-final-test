@@ -39,7 +39,7 @@ proyecto
 │   ├── funct.cpp
 │   ├── main.cpp
 │   ├── struct.h
-│   ├── bd-diagrama.png
+│   ├── diagrama-bd.png
   ```
 <h4 align="center">Estructura</h2>
 
